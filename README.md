@@ -53,7 +53,7 @@ JWT is used for secure authentication.
   "age": 35,
   "medical_history": "Diabetes and hypertension"
 }
-## PUT /api/patients/<id>/
+## PUT /api/patients/id/
 {
   "name": "Updated Name",
   "age": 40,
@@ -65,7 +65,7 @@ JWT is used for secure authentication.
   "name": "Dr. Smith",
   "specialization": "Cardiologist"
 }
- ## PUT /api/doctors/<id>/
+ ## PUT /api/doctors/id/
  {
   "name": "Dr. Smith Updated",
   "specialization": "Neurologist"
@@ -77,5 +77,5 @@ JWT is used for secure authentication.
   "doctor": 2
 }
 
-## GET /api/mappings/<patient_id>/
-## DELETE /api/mappings/<mapping_id>/
+## GET /api/mappings/patient_id/
+## DELETE /api/mappings/mapping_id/
