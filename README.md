@@ -25,6 +25,9 @@ This project is a secure and modular backend system for a healthcare application
 - PostgreSQL
 - djangorestframework-simplejwt
 
+## pip install -r requirements.txt
+
+
 ---
 
 ## Authentication
